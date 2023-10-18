@@ -1,19 +1,31 @@
-// const fs = require('fs/promises')
+const path = require("path");
+const fs = require("fs/promises");
 
-const listShops = async () => {}
+const shopsPath = path.join(__dirname, "./shops.json");
 
-const getShopById = async (shopId) => {}
+const listShops = async () => {
+  const shops = await fs.readFile(shopsPath);
+  return JSON.parse(shops);
+};
 
-const removeShop = async (shopId) => {}
+const getShopsById = async (shopId) => {
+  const shopsData = await listShops();
+  for (const shop of shopsData.shops) {
+    if (shop.id === shopId) {
+      return shop;
+    }
+  }
+  return null;
+};
 
-const addShop = async (body) => {}
-
-const updateShop = async (shopId, body) => {}
+const getItemById = async (shopId, itemId) => {
+  const shop = await getShopsById(shopId);
+  const item = shop.items.find((item) => item.id === itemId);
+  return item || null;
+};
 
 module.exports = {
   listShops,
-  getShopById,
-  removeShop,
-  addShop,
-  updateShop,
-}
+  getShopsById,
+  getItemById,
+};

@@ -1,62 +1,152 @@
-[
+{
+  "shops": [
+    {
+      "id": "AeHIrLTr6JkxGE6SN-0Rw",
+      "name": "McDonald's",
+      "logo": "nulla.ante@vestibul.co.uk",
+      "items": [
+        {
+          "id": "erfcfrLTr6JkxGE6SN-0Rw",
+          "title": "FamilyBox",
+          "picture": "nulla.ante@vestibul.co.uk",
+          "price": 370
+        },
+        {
+          "id": "erfcfrLrvgerfGE6SN-0Rw",
+          "title": "HappyMeal",
+          "picture": "HappyMeal@vestibul.co.uk",
+          "price": 180
+        },
+        {
+          "id": "erfcfrLrvgerfGE6rtvgergf4e",
+          "title": "McChicken Menu",
+          "picture": "McChicken.ante@vestibul.co.uk",
+          "price": 250
+        },
+        {
+          "id": "erfcrtbvrtgbrgerfGE6SN-0Rw",
+          "title": "BigMc Menu",
+          "picture": "BigMc.ante@vestibul.co.uk",
+          "price": 270
+        },
+        {
+          "id": "erfclmkmrgerfGE6SN-0Rw",
+          "title": "McMenuCheese",
+          "picture": "McMenuCheese.ante@vestibul.co.uk",
+          "price": 260
+        }
+      ]
+    },
   {
-    "id": "AeHIrLTr6JkxGE6SN-0Rw",
-    "name": "Allen Raymond",
-    "email": "nulla.ante@vestibul.co.uk",
-    "phone": "(992) 914-3792"
+    "id": "AeHIrLTvbfgxGE6SN-0Rw",
+    "name": "Buffalo Wild Wings",
+    "logo": "Buffalo.ante@vestibul.co.uk",
+    "items": [
+      {
+        "id": "e344r5bvrtgbrgerfGE6SN-0Rw",
+        "title": "Wings Fries Asian Zing Medium",
+        "picture": "AsianFries.ante@vestibul.co.uk",
+        "price": 300
+      },
+      {
+        "id": "erfcrtbvrtgbrgerfGE6SN-0R90989w",
+        "title": "Party Menu Boneless",
+        "picture": "PartyMeal@vestibul.co.uk",
+        "price": 560
+      },
+      {
+        "id": "erfc090febrgerfGE6SN-0Rw",
+        "title": "Kids Fried Cauliflour Bites",
+        "picture": "KidsFried.ante@vestibul.co.uk",
+        "price": 250
+      },
+      {
+        "id": "ervnkvmreiigerfGE6SN-0Rw",
+        "title": "Traditional Boneless PepsiGlass Silo",
+        "picture": "Boneless.ante@vestibul.co.uk",
+        "price": 220
+      },
+      {
+        "id": "erfckmvfmvoerfGE6SN-0Rw",
+        "title": "Wings Traditional and Boneless Honey-BBQ",
+        "picture": "Honey-BBQ.ante@vestibul.co.uk",
+        "price": 270
+      }
+    ]
   },
   {
-    "id": "qdggE76Jtbfd9eWJHrssH",
-    "name": "Chaim Lewis",
-    "email": "dui.in@egetlacus.ca",
-    "phone": "(294) 840-6685"
+    "id": "Artrgrr6JkxGE6SN-0Rw",
+    "name": "KFC",
+    "logo": "KFC.ante@vestibul.co.uk",
+    "items": [
+      {
+        "id": "e234r4jngjberfGE6SN-0Rw",
+        "title": "bbq fried sandwich",
+        "picture": "bbq.ante@vestibul.co.uk",
+        "price": 170
+      },
+      {
+        "id": "e234r4jngjbnvjgnvtE6SN-0Rw",
+        "title": "ChickenFrie",
+        "picture": "ChickenFrie@vestibul.co.uk",
+        "price": 190
+      },
+      {
+        "id": "e234r4jn34r543fGE6SN-0Rw",
+        "title": "Medium Menu",
+        "picture": "MediumMenu.ante@vestibul.co.uk",
+        "price": 260
+      },
+      {
+        "id": "e23tgvtvr4jngjberfGE6SN-0Rw",
+        "title": "Party Menu",
+        "picture": "PartyMenu.ante@vestibul.co.uk",
+        "price": 470
+      },
+      {
+        "id": "e234kflp0gjberfGE6SN-0Rw",
+        "title": "SoloMenu",
+        "picture": "SoloMenu.ante@vestibul.co.uk",
+        "price": 260
+      }
+    ]
   },
   {
-    "id": "drsAJ4SHPYqZeG-83QTVW",
-    "name": "Kennedy Lane",
-    "email": "mattis.Cras@nonenimMauris.net",
-    "phone": "(542) 451-7038"
-  },
-  {
-    "id": "vza2RIzNGIwutCVCs4mCL",
-    "name": "Wylie Pope",
-    "email": "est@utquamvel.net",
-    "phone": "(692) 802-2949"
-  },
-  {
-    "id": "05olLMgyVQdWRwgKfg5J6",
-    "name": "Cyrus Jackson",
-    "email": "nibh@semsempererat.com",
-    "phone": "(501) 472-5218"
-  },
-  {
-    "id": "1DEXoP8AuCGYc1YgoQ6hw",
-    "name": "Abbot Franks",
-    "email": "scelerisque@magnis.org",
-    "phone": "(186) 568-3720"
-  },
-  {
-    "id": "Z5sbDlS7pCzNsnAHLtDJd",
-    "name": "Reuben Henry",
-    "email": "pharetra.ut@dictum.co.uk",
-    "phone": "(715) 598-5792"
-  },
-  {
-    "id": "C9sjBfCo4UJCWjzBnOtxl",
-    "name": "Simon Morton",
-    "email": "dui.Fusce.diam@Donec.com",
-    "phone": "(233) 738-2360"
-  },
-  {
-    "id": "e6ywwRe4jcqxXfCZOj_1e",
-    "name": "Thomas Lucas",
-    "email": "nec@Nulla.com",
-    "phone": "(704) 398-7993"
-  },
-  {
-    "id": "rsKkOQUi80UsgVPCcLZZW",
-    "name": "Alec Howard",
-    "email": "Donec.elementum@scelerisquescelerisquedui.net",
-    "phone": "(748) 206-2688"
+    "id": "AeHIrLTr6JrferfN-0Rw",
+    "name": "Subway",
+    "logo": "Subway.ante@vestibul.co.uk",
+    "items": [
+      {
+        "id": "e234fkmdfjberfGE6SN-0Rw",
+        "title": "sandwich pizza",
+        "picture": "sandwich.pizza@vestibul.co.uk",
+        "price": 150
+      },
+      {
+        "id": "e234r4jngjberf098GE6SN-0Rw",
+        "title": "veggie guacamole",
+        "picture": "veggieguacamole@vestibul.co.uk",
+        "price": 130
+      },
+      {
+        "id": "e234r4jngjberfG234SN-0Rw",
+        "title": "kingsCheese",
+        "picture": "kingsCheese.ante@vestibul.co.uk",
+        "price": 220
+      },
+      {
+        "id": "e234r4jjgjj555erfGE6SN-0Rw",
+        "title": "kingsHawaiian",
+        "picture": "kingsHawaiian.ante@vestibul.co.uk",
+        "price": 230
+      },
+      {
+        "id": "e234r4jngjberfGE2334SN-0Rw",
+        "title": "unconventional",
+        "picture": "unconventional.ante@vestibul.co.uk",
+        "price": 180
+      }
+    ]
   }
-]
+  ]
+}

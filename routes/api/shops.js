@@ -2,24 +2,12 @@ const express = require('express')
 
 const router = express.Router()
 
-router.get('/', async (req, res, next) => {
-  res.json({ message: 'template' });
-})
+const ctrl = require("../../controllers/shops");
 
-router.get('/:shopId', async (req, res, next) => {
-  res.json({ message: 'template message' })
-})
+router.get("/", (ctrl.getAll));
 
-router.post('/', async (req, res, next) => {
-  res.json({ message: 'template message' })
-})
+router.get('/:shopId', (ctrl.getById))
 
-router.delete('/:shopId', async (req, res, next) => {
-  res.json({ message: 'template message' })
-})
-
-router.put('/:shopId', async (req, res, next) => {
-  res.json({ message: 'template message' })
-})
+router.get('/:shopId/items/:itemId', ctrl.getItemById);
 
 module.exports = router
