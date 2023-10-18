@@ -1,11 +1,12 @@
 const shops = require('../../models/shops');
+const {RequestError} = require('../../helpers')
 
 const getItemById = async (req, res) => {
   const { shopId, itemId } = req.params;
   const item = await shops.getItemById(shopId, itemId);
 
   if (!item) {
-    return res.status(404).json({ error: 'Product not found' });
+    throw RequestError(404);
   }
 
   res.json(item);

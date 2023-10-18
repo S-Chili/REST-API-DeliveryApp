@@ -4,10 +4,12 @@ const router = express.Router()
 
 const ctrl = require("../../controllers/shops");
 
-router.get("/", (ctrl.getAll));
+const {ctrlWrapper} = require("../../helpers")
 
-router.get('/:shopId', (ctrl.getById))
+router.get("/", ctrlWrapper(ctrl.getAll));
 
-router.get('/:shopId/items/:itemId', ctrl.getItemById);
+router.get('/:shopId', ctrlWrapper(ctrl.getById))
+
+router.get('/:shopId/items/:itemId', ctrlWrapper(ctrl.getItemById));
 
 module.exports = router
